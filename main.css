@@ -1,0 +1,25 @@
+#container{
+	width: 80%;
+	height: 80vh;
+	margin: 0 auto 0 auto;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	background: url("background.jpg");
+	background-size: cover;
+	transition: 0.5s;
+}
+#left{
+	float: left;
+	margin-top: calc(40vh - 15px);
+	cursor: pointer;
+	z-index: 99;
+	background-color: black;
+}
+#right{
+	float: right;
+	margin-top: calc(40vh - 15px);
+	cursor: pointer;
+	z-index: 99;
+	background-color: black;
+}
